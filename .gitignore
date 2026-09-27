@@ -1,0 +1,73 @@
+# ==========================================
+# VIREO AI - PRODUCTION .GITIGNORE
+# ==========================================
+
+# --- 1. Dependencies & Package Managers ---
+node_modules/
+jspm_packages/
+.pnp/
+.pnp.js
+
+# --- 2. Build Outputs & Frontend Bundles ---
+dist/
+build/
+out/
+frontend/dist/
+frontend/build/
+
+# --- 3. Environment Variables & Secrets ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# --- 4. Database & Local Vector Storage ---
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-wal
+data/
+storage/db/
+
+# --- 5. Process Manager & Logs (PM2 / Node) ---
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.pm2/
+pids/
+
+# --- 6. Operating System Generated Files ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# --- 7. IDE, Editors & Local Tooling ---
+.idea/
+.vscode/
+*.swp
+*.swo
+.project
+.classpath
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# --- 8. Temporary & Cache Directories ---
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+.nuxt/
+.next/
+.svelte-kit/
