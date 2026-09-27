@@ -1,7 +1,5 @@
 Vireo AI
 
-Vireo AI
-
 <img width="1280" height="720" alt="vireogif-ezgif com-video-to-gif-converter" src="https://github.com/user-attachments/assets/a837be66-c55c-4985-988b-11b4da99b1e0" />
 
 
