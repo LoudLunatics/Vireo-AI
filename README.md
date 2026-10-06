@@ -181,4 +181,4 @@ Create a .env file in the root directory with the following variables:
 Cuplikan kode
 
 PORT=5000
-OPENROUTER_API_KEY=your_openrouter_api_key_here![Uploading vireogif-ezgif.com-video-to-gif-converter.gif…]()
+OPENROUTER_API_KEY=your_openrouter_api_key_here!
